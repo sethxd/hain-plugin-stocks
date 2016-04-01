@@ -1,0 +1,28 @@
+{
+  "name": "hain-plugin-stocks",
+  "version": "0.0.1",
+  "description": "A simple Hain plugin using the Yahoo Finance API to search and list stock market prices.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethxd/hain-plugin-stocks.git"
+  },
+  "keywords": [
+    "hain0",
+    "hain",
+    "stocks",
+    "yahoo finance"
+  ],
+  "author": "sethxd",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.6.1",
+    "got": "latest"
+  },
+  "hain": {
+    "prefix": "/stk ",
+    "usage": "Type /stk to search stock prices.",
+    "icon": "#fa fa-usd",
+    "redirect": "/stk "
+  }
+}
